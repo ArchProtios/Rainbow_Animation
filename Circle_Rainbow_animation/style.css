@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    height: 500px;
+    width: 500px;
+    position: relative;
+    top: 120px;
+    left: 520px;
+    background: conic-gradient(red,orange,blue,green,indigo,violet,red);
+    border-radius: 50%;
+    border: 3px solid black;
+    animation: anime 2s linear infinite;
+} 
+
+@keyframes anime {
+    0% {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg;
+    }
+}
